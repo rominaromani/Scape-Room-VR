@@ -37,7 +37,7 @@
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.core": {
-      "version": "65.0.0",
+      "version": "66.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},

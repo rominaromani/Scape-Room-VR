@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 5f70c6590b5c0884db1eefec1bd10fef
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\scene.bin
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\scene.bin
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.001_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.001_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.002_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.002_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_specularf0.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_specularf0.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_Wall_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_Wall_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_Wall_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_Wall_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_Wall_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Meter_Wall_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.013_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.013_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.013_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.013_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.013_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.013_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Puddle_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Puddle_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Puddle_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Puddle_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Puddle_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Puddle_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Puddle_specularf0.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Puddle_specularf0.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.004_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.004_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.004_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.004_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.004_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.004_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Rubble_1_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Rubble_1_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Rubble_1_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Rubble_1_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Rubble_1_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Rubble_1_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Bushings_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Bushings_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Bushings_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Bushings_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Bushings_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Bushings_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.036_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.036_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.041_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.041_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.045_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.045_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.045_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.045_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.045_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.045_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.007_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.007_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.007_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.007_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.007_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.007_normal.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.008_baseColor.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.008_baseColor.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.008_metallicRoughness.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.008_metallicRoughness.png
+  - type: 1
+    originalUri: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.008_normal.png
+    assetPath: Assets\ElementosAmbiente\plushtrap_ar_hallway\textures\Default_OBJ.008_normal.png
+  reportItems:
+  - type: 2
+    code: 20
+    messages:
+    - KHR_materials_specular

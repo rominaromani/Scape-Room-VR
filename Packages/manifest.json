@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.atteneder.gltfast": "https://github.com/atteneder/glTFast.git",
     "com.meta.xr.sdk.all": "66.0.0",
     "com.meta.xr.sdk.core": "66.0.0",
     "com.microsoft.mrtk.graphicstools.unity": "0.7.1",

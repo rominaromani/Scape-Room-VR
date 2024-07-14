@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CajonSimple : MonoBehaviour
+
+    //Añadimos sonido
 {
+    [SerializeField] private AudioSource abrir;
     [Header("Settings")]
     public float speed = 1.0f;
     public Vector3 posAbierto;
@@ -27,6 +30,7 @@ public class CajonSimple : MonoBehaviour
         if (abriendo)
         {
            transform.localPosition = Vector3.Lerp(transform.localPosition, posAbierto, Time.deltaTime * speed);
+   
             if(Vector3.Distance(transform.localPosition, posAbierto) < 0.001f)
             {
                 abriendo = false;
@@ -37,7 +41,8 @@ public class CajonSimple : MonoBehaviour
         if (cerrando)
         {
             transform.localPosition = Vector3.Lerp(transform.localPosition, posCerrado, Time.deltaTime * speed);
-            if (Vector3.Distance(transform.localPosition, posCerrado) < 0.001f)
+
+            if (Vector3.Distance(transform.localPosition, posCerrado) < 0.0001f)
             {
                 cerrando = false;
                 abierto = false;
@@ -50,10 +55,13 @@ public class CajonSimple : MonoBehaviour
         if (!abierto)
         {
             abriendo = true;
+            abrir.Play();
         }
         else
         {
            cerrando = true;
+           abrir.Play();
         }
     }
 }
+

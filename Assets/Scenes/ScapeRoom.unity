@@ -18878,7 +18878,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b47655fde7801ad4786df4ec915b73dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  abrir: {fileID: 2029320010}
+  speed: 3
   posAbierto: {x: 0, y: 0, z: 0}
   distancia: 0.8
 --- !u!114 &1884164415
@@ -18893,7 +18894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b47655fde7801ad4786df4ec915b73dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  abrir: {fileID: 2029320010}
+  speed: 3
   posAbierto: {x: 0, y: 0, z: 0}
   distancia: 0.8
 --- !u!64 &1884164416
@@ -19013,7 +19015,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b47655fde7801ad4786df4ec915b73dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  abrir: {fileID: 2029320010}
+  speed: 3
   posAbierto: {x: 0, y: 0, z: 0}
   distancia: 0.8
 --- !u!54 &1884164425

@@ -8,7 +8,7 @@ public class CajonSimple : MonoBehaviour
 {
     [SerializeField] private AudioSource abrir;
     [Header("Settings")]
-    public float speed = 1.0f;
+    public float speed ;
     public Vector3 posAbierto;
     public float distancia = 0.8f;
 

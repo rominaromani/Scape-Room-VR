@@ -12,6 +12,7 @@ public class KeyPad : MonoBehaviour
     [SerializeField] private AudioSource presionarboton ;
     [SerializeField] private AudioSource correcto ;
     [SerializeField] private AudioSource incorrecto ;
+    [SerializeField] private TMP_Text abiertaCerrado; 
 
 
     public void Number(int number)
@@ -25,7 +26,7 @@ public class KeyPad : MonoBehaviour
             Ans.text = "";
         }
 
-        if (Ans.text.Length < 4)
+        if (Ans.text.Length < 5)
         {
             Ans.text += number.ToString();
             presionarboton.Play();
@@ -41,6 +42,7 @@ public class KeyPad : MonoBehaviour
             Door.SetBool("Open", true);
             StartCoroutine("StopDoor");
             correcto.Play();
+            abiertaCerrado.text = "OPEN";
         }
         else
         {
@@ -62,7 +64,7 @@ public class KeyPad : MonoBehaviour
 
     public void Start()
     {
-        
+        abiertaCerrado.text = "CLOSED";
     }
     // Update is called once per frame
     void Update()

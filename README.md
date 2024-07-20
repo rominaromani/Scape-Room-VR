@@ -54,3 +54,52 @@ Este proyecto es una sala de escape en realidad virtual (VR) inspirada en la tem
      - **Target Architectures:** Activa solo `ARM64`.
 
    - Si ocurre un error al compilar, ve a `Project Settings > Meta XR` y haz clic en `Apply All`.
+
+
+
+## Instrucciones de Uso
+
+1. **Iniciar el Juego:**
+   - Asegúrate de que las escenas `FinalMenu`, `ScapeRoom`, y `GameOver` están correctamente configuradas en el Build Settings (`File > Build Settings`).
+   - Abre la escena `ScapeRoom` (`Assets/Scenes/ScapeRoom.unity`).
+   - Haz clic en el botón de reproducir (`Play`) en la parte superior de Unity para iniciar el juego.
+
+2. **Resolver los Acertijos:**
+   - Explora la sala y encuentra el código numérico en el techo.
+   - Usa el código para abrir la caja fuerte.
+   - Escucha atentamente el mensaje de audio y encuentra la palabra 'DEATH'.
+   - Observa el tablero con letras subrayadas y usa las pistas para avanzar.
+   - Interactúa con los cubos de colores para resolver el desafío final.
+
+## Sonidos Utilizados
+
+Los sonidos utilizados en el juego se pueden acceder desde el siguiente enlace de Google Drive: [Sonidos del Proyecto](https://drive.google.com/drive/folders/1RNE-uEr2JJ3K4l_Pj_lJ3QI_tP7yAnPo?usp=sharing).
+
+Por favor, descarga los sonidos y colócalos en la carpeta `Assets/Music`. Luego, asigna los sonidos a los siguientes objetos en la escena `ScapeRoom`:
+
+- **AudioCorrecto:** [Añadir Sonido KeyPadCorrect]
+- **AudioIncorrecto:** [Añadir Sonido KeyPadIncorrect]
+- **AudioPresionar** [Añadir Sonido Press]
+- **DrawerSound:** [Añadir Sonido Drawer]
+- **PalabrasSound:** [Añadir Sonido Palabras]
+- **CaerSonido:** [Añadir Sonido Caer]
+- **RecogerSonido:** [Añadir Sonido Recoger]
+
+## Contribuir
+
+¡Contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+
+1. **Hacer un Fork del Repositorio.**
+2. **Crear una Rama Feature:**
+   ```bash
+   git checkout -b feature-nueva-funcionalidad
+   ```
+3. **Realizar los Cambios y Confirmarlos:**
+   ```bash
+   git commit -m "Agregar nueva funcionalidad"
+   ```
+4. **Subir los Cambios:**
+   ```bash
+   git push origin feature-nueva-funcionalidad
+   ```
+5. **Abrir un Pull Request.**

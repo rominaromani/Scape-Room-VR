@@ -64,7 +64,7 @@ public class KeyPad : MonoBehaviour
 
     public void Start()
     {
-        abiertaCerrado.text = "CLOSED";
+        
     }
     // Update is called once per frame
     void Update()
